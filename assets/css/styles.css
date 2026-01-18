@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1A0B2E;
+    --stock-color: #412567;
+    --common-color: #FFFFFF;
+    --badge-color: #00FF88;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+/* shared css */
+
+.btn {
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    color: var(--common-color);
+
+}
+.transference-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid #00FF88;
+    border-radius: 30px;
+    background: transparent;
+    color: #00FF88;
+
+}
+
+/* shared css end */
+
+
+/* header section css */
+header {
+    background-color: var(--primary-color);
+
+}
+
+/* navbar section */
+.navbar-container {
+
+    border-bottom: 1px solid var(--stock-color);
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.logo-text-white {
+    color: #ffff;
+}
+
+/* Gradient color implemented using Google-supported standards */
+.logo .logo-text-gradient {
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menus .links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: var(--common-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* hero section */
+
+.hero-container {
+    background-image: url('../../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.hero {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 101px 0px;
+}
+
+.hero-first-img {
+    width: 350px;
+    height: 350px;
+
+}
+
+
+.hero-image {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@keyframes shaking {
+  0% {
+    transform: translateX(0);
+   
+  }
+  50% {
+    transform: translateX(14px);
+  
+  }
+  100% {
+   transform: translateX(0px);
+   
+  }
+}
+
+.hero-second-img {
+    position: absolute;
+    top: 88px;
+    left: 214px;
+    animation-name: shaking;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  
+
+}
+
+.hero-image .badge {
+    background-color: var(--badge-color);
+    padding: 8px 16px;
+    color: #1A0B2E;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    box-shadow: 0px 1px 21px 0px #12b371;
+    position: absolute;
+    top: 22px;
+    left: 362px;
+}
+
+.hero-info {
+    text-align: center;
+}
+
+.hero-info h3{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: var(--common-color);
+    margin-bottom: 8px;
+}
+
+.hero-info p{
+    font-size: 1rem;
+    color: var(--common-color);
+    font-weight: normal;
+    opacity: 80%;
+    margin-bottom: 24px;
+}
+
+/* about css */
+
+.about{
+    background-color: var(--primary-color);
+}
+
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-info{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.about-info h3{
+    color: var(--common-color);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.about-text{
+    
+    color: var(--common-color);
+    opacity: 80%;
+    font-size: 1rem;
+    line-height: 33px;
+    font-weight: normal;
+    padding: 0px 228px;
+}
+
+.about-break hr{
+    color: var(--common-color);
+    opacity: 10%;
+}
+
+.about-counter{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-couunter-box{
+    width: 240px;
+    height: 94px;
+    text-align: center;
+}
+
+.about-couunter-box h2{
+    color: var(--badge-color);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.about-couunter-box p{
+    color: var(--common-color);
+    opacity: 80%;
+}
