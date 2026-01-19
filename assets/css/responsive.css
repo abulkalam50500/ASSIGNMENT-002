@@ -151,6 +151,11 @@
 
     /* meet the host */
 
+    .meet-the-host-container {
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
     .meet-the-host-title h2 {
         font-size: 2rem;
         margin-bottom: 24px;
@@ -163,22 +168,29 @@
         align-items: center;
     }
 
-    .host-info{
+    .host-info {
         text-align: center;
     }
 
-    .host-info h3{
+    .host-info h3 {
         font-size: 1.5rem;
     }
 
-    .host-social-info{
+    .host-social-info {
         justify-content: center;
     }
 
 
     /* footer section */
-    
+    .footer-container {
 
+        padding: 40px;
+    }
+
+    .footer-social {
+        flex-wrap: wrap;
+        gap: 13px;
+    }
 
 }
 
