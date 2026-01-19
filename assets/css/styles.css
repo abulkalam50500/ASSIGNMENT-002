@@ -348,7 +348,7 @@ header {
     border-radius: 20px;
 }
 
-.feature-card img{
+.feature-card iframe{
     width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
