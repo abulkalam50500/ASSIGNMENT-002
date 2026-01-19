@@ -506,3 +506,7 @@ footer {
     opacity: 60%;
 
 }
+
+.mobile-menu{
+    display: none;
+}
