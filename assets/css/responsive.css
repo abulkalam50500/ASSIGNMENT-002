@@ -185,12 +185,24 @@
     .footer-container {
 
         padding: 40px;
+
+
     }
 
     .footer-social {
         flex-wrap: wrap;
         gap: 13px;
     }
+
+    footer {
+
+        background-position: center center;
+        background-size: contain;
+    }
+
+
+
+
 
 }
 

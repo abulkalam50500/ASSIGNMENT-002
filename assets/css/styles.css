@@ -459,7 +459,8 @@ header {
 }
 
 footer {
-    background: url('../../assets/footer-bg.png');
+    
+    background: url('../../assets/footer-bg.png') var(--secondary-bg-color);
     background-repeat: no-repeat;
     background-position: top;
 }
