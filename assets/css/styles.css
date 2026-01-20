@@ -460,7 +460,7 @@ header {
 
 footer {
     
-    background: url('../../assets/footer-bg.png') var(--secondary-bg-color);
+    background: url('../../assets/footer-bg.png');
     background-repeat: no-repeat;
     background-position: top;
 }

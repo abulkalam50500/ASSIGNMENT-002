@@ -196,7 +196,8 @@
 
     footer {
 
-        background-position: center center;
+                background: url(../../assets/footer-mobile.jpeg);
+        background-position: left;
         background-size: contain;
     }
 
