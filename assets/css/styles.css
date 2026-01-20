@@ -34,6 +34,7 @@ body {
     border-radius: 30px;
     background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     color: var(--common-color);
+    cursor: pointer;
 
 }
 
@@ -45,6 +46,7 @@ body {
     border-radius: 30px;
     background: transparent;
     color: #00FF88;
+    cursor: pointer;
 
 }
 
